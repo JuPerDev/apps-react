@@ -1,0 +1,910 @@
+{
+  "palabras": [
+    {
+      "correcta": "BULBASAUR",
+      "incorrecta": "RBUUABLSA",
+      "pista": "El Pokémon semilla, de tipo planta y veneno.",
+      "img": "../src/assets/sprites_pokemon/1.png"
+    },
+    {
+      "correcta": "IVYSAUR",
+      "incorrecta": "IVYRAUS",
+      "pista": "La evolución intermedia de Bulbasaur.",
+      "img": "../src/assets/sprites_pokemon/2.png"
+    },
+    {
+      "correcta": "VENUSAUR",
+      "incorrecta": "SNUUAVER",
+      "pista": "La evolución final de Bulbasaur.",
+      "img": "../src/assets/sprites_pokemon/3.png"
+    },
+    {
+      "correcta": "CHARMANDER",
+      "incorrecta": "RMCAHNEDAR",
+      "pista": "Pokémon inicial de tipo fuego, conocido por su cola ardiente.",
+      "img": "../src/assets/sprites_pokemon/4.png"
+    },
+    {
+      "correcta": "CHARMELEON",
+      "incorrecta": "RALEOCHMNE",
+      "pista": "Evolución de Charmander con un temperamento feroz.",
+      "img": "../src/assets/sprites_pokemon/5.png"
+    },
+    {
+      "correcta": "CHARIZARD",
+      "incorrecta": "RACHIRDZA",
+      "pista": "La evolución final de Charmander que puede volar.",
+      "img": "../src/assets/sprites_pokemon/6.png"
+    },
+    {
+      "correcta": "SQUIRTLE",
+      "incorrecta": "QTLRIEUS",
+      "pista": "Pokémon inicial de tipo agua con un caparazón protector.",
+      "img": "../src/assets/sprites_pokemon/7.png"
+    },
+    {
+      "correcta": "WARTORTLE",
+      "incorrecta": "WRAOELTTL",
+      "pista": "La evolución de Squirtle con orejas y cola más grandes.",
+      "img": "../src/assets/sprites_pokemon/8.png"
+    },
+    {
+      "correcta": "BLASTOISE",
+      "incorrecta": "STLOBIASE",
+      "pista": "Evolución final de Squirtle, equipada con cañones en su caparazón.",
+      "img": "../src/assets/sprites_pokemon/9.png"
+    },
+    {
+      "correcta": "CATERPIE",
+      "incorrecta": "TRECPIAE",
+      "pista": "Pequeño Pokémon oruga de tipo bicho.",
+      "img": "../src/assets/sprites_pokemon/10.png"
+    },
+    {
+      "correcta": "METAPOD",
+      "incorrecta": "TADPOME",
+      "pista": "La forma capullo de Caterpie.",
+      "img": "../src/assets/sprites_pokemon/11.png"
+    },
+    {
+      "correcta": "BUTTERFREE",
+      "incorrecta": "TUBERREFE",
+      "pista": "La mariposa que Caterpie se convierte en su última evolución.",
+      "img": "../src/assets/sprites_pokemon/12.png"
+    },
+    {
+      "correcta": "WEEDLE",
+      "incorrecta": "LEDWEE",
+      "pista": "Pokémon de tipo bicho con un aguijón venenoso en su cabeza.",
+      "img": "../src/assets/sprites_pokemon/13.png"
+    },
+    {
+      "correcta": "KAKUNA",
+      "incorrecta": "UKAANK",
+      "pista": "Forma capullo de Weedle, espera pacientemente para evolucionar.",
+      "img": "../src/assets/sprites_pokemon/14.png"
+    },
+    {
+      "correcta": "BEEDRILL",
+      "incorrecta": "DRIEBLLDE",
+      "pista": "La abeja Pokémon venenosa que es la evolución final de Weedle.",
+      "img": "../src/assets/sprites_pokemon/15.png"
+    },
+    {
+      "correcta": "PIDGEY",
+      "incorrecta": "GPDIEY",
+      "pista": "Pequeño Pokémon volador común en la primera generación.",
+      "img": "../src/assets/sprites_pokemon/16.png"
+    },
+    {
+      "correcta": "PIDGEOTTO",
+      "incorrecta": "PTODEGOTI",
+      "pista": "La evolución de Pidgey, más rápida y ágil.",
+      "img": "../src/assets/sprites_pokemon/17.png"
+    },
+    {
+      "correcta": "PIDGEOT",
+      "incorrecta": "PIGETOD",
+      "pista": "La evolución final de Pidgey, conocida por su velocidad.",
+      "img": "../src/assets/sprites_pokemon/18.png"
+    },
+    {
+      "correcta": "RATTATA",
+      "incorrecta": "TTRAAAT",
+      "pista": "Pokémon ratón de tipo normal, rápido y común.",
+      "img": "../src/assets/sprites_pokemon/19.png"
+    },
+    {
+      "correcta": "RATICATE",
+      "incorrecta": "TATICERA",
+      "pista": "Evolución de Rattata, con colmillos más grandes y peligrosos.",
+      "img": "../src/assets/sprites_pokemon/20.png"
+    },
+    {
+      "correcta": "SPEAROW",
+      "incorrecta": "PESWRAO",
+      "pista": "Pokémon pájaro, agresivo y territorial.",
+      "img": "../src/assets/sprites_pokemon/21.png"
+    },
+    {
+      "correcta": "FEAROW",
+      "incorrecta": "RAOFWE",
+      "pista": "Evolución de Spearow, más grande y con un pico largo.",
+      "img": "../src/assets/sprites_pokemon/22.png"
+    },
+    {
+      "correcta": "EKANS",
+      "incorrecta": "KANES",
+      "pista": "Pokémon serpiente de tipo veneno.",
+      "img": "../src/assets/sprites_pokemon/23.png"
+    },
+    {
+      "correcta": "ARBOK",
+      "incorrecta": "BOKAR",
+      "pista": "Evolución de Ekans, con una gran marca en su abdomen.",
+      "img": "../src/assets/sprites_pokemon/24.png"
+    },
+    {
+      "correcta": "PIKACHU",
+      "incorrecta": "CHAKPIU",
+      "pista": "El Pokémon eléctrico más conocido, compañero de Ash.",
+      "img": "../src/assets/sprites_pokemon/25.png"
+    },
+    {
+      "correcta": "RAICHU",
+      "incorrecta": "HAUICR",
+      "pista": "Evolución de Pikachu, más fuerte y con una cola de rayo.",
+      "img": "../src/assets/sprites_pokemon/26.png"
+    },
+    {
+      "correcta": "SANDSHREW",
+      "incorrecta": "HSWENDRAS",
+      "pista": "Pokémon de tipo tierra que se enrolla como una bola.",
+      "img": "../src/assets/sprites_pokemon/27.png"
+    },
+    {
+      "correcta": "SANDSLASH",
+      "incorrecta": "SNAHDSSAL",
+      "pista": "Evolución de Sandshrew, con garras afiladas.",
+      "img": "../src/assets/sprites_pokemon/28.png"
+    },
+    {
+      "correcta": "NIDORAN",
+      "incorrecta": "ADORNIN",
+      "pista": "Pokémon de tipo veneno con una diferencia en género.",
+      "img": "../src/assets/sprites_pokemon/29.png"
+    },
+    {
+      "correcta": "NIDORINA",
+      "incorrecta": "NORIDNAI",
+      "pista": "Evolución de Nidoran♀, más fuerte y más defensiva.",
+      "img": "../src/assets/sprites_pokemon/30.png"
+    },
+    {
+      "correcta": "NIDOQUEEN",
+      "incorrecta": "QUNEDEOIN",
+      "pista": "Evolución final de Nidoran♀, con grandes capacidades defensivas.",
+      "img": "../src/assets/sprites_pokemon/31.png"
+    },
+    {
+      "correcta": "NIDORAN",
+      "incorrecta": "NORANID",
+      "pista": "Pokémon de tipo veneno con una diferencia en género.",
+      "img": "../src/assets/sprites_pokemon/32.png"
+    },
+    {
+      "correcta": "NIDORINO",
+      "incorrecta": "ORINODNI",
+      "pista": "Evolución de Nidoran♂, más agresivo y ofensivo.",
+      "img": "../src/assets/sprites_pokemon/33.png"
+    },
+    {
+      "correcta": "NIDOKING",
+      "incorrecta": "INDGKONI",
+      "pista": "Evolución final de Nidoran♂, con cuernos venenosos.",
+      "img": "../src/assets/sprites_pokemon/34.png"
+    },
+    {
+      "correcta": "CLEFAIRY",
+      "incorrecta": "RLEFAICY",
+      "pista": "Pokémon hada que adora la luz dela luna.",
+      "img": "../src/assets/sprites_pokemon/35.png"
+    },
+    {
+      "correcta": "CLEFABLE",
+      "incorrecta": "FBLEACLE",
+      "pista": "Evolución de Clefairy, con más habilidades de tipo hada.",
+      "img": "../src/assets/sprites_pokemon/36.png"
+    },
+    {
+      "correcta": "VULPIX",
+      "incorrecta": "LXPIVU",
+      "pista": "Pokémon de tipo fuego con seis colas.",
+      "img": "../src/assets/sprites_pokemon/37.png"
+    },
+    {
+      "correcta": "NINETALES",
+      "incorrecta": "NEALNITES",
+      "pista": "Evolución de Vulpix, con nueve colas y poderes místicos.",
+      "img": "../src/assets/sprites_pokemon/38.png"
+    },
+    {
+      "correcta": "JIGGLYPUFF",
+      "incorrecta": "JFGIGYPLUL",
+      "pista": "Pokémon conocido por cantar hasta dormir a sus oponentes.",
+      "img": "../src/assets/sprites_pokemon/39.png"
+    },
+    {
+      "correcta": "WIGGLYTUFF",
+      "incorrecta": "LGYWGITFUL",
+      "pista": "Evolución de Jigglypuff, más resistente y voluminosa.",
+      "img": "../src/assets/sprites_pokemon/40.png"
+    },
+    {
+      "correcta": "ZUBAT",
+      "incorrecta": "TBAUZ",
+      "pista": "Pokémon volador y venenoso que vive en cuevas oscuras.",
+      "img": "../src/assets/sprites_pokemon/41.png"
+    },
+    {
+      "correcta": "GOLBAT",
+      "incorrecta": "BTOALG",
+      "pista": "Evolución de Zubat, con una boca grande para drenar energía.",
+      "img": "../src/assets/sprites_pokemon/42.png"
+    },
+    {
+      "correcta": "ODDISH",
+      "incorrecta": "ODDSIH",
+      "pista": "Pokémon planta que parece un bulbo de hierba.",
+      "img": "../src/assets/sprites_pokemon/43.png"
+    },
+    {
+      "correcta": "GLOOM",
+      "incorrecta": "MOLOG",
+      "pista": "Evolución de Oddish, con un desagradable olor a flores.",
+      "img": "../src/assets/sprites_pokemon/44.png"
+    },
+    {
+      "correcta": "VILEPLUME",
+      "incorrecta": "ELUMPLVIE",
+      "pista": "Evolución final de Oddish, con una flor venenosa en la cabeza.",
+      "img": "../src/assets/sprites_pokemon/45.png"
+    },
+    {
+      "correcta": "PARAS",
+      "incorrecta": "ARSPA",
+      "pista": "Pokémon insecto con setas en su espalda.",
+      "img": "../src/assets/sprites_pokemon/46.png"
+    },
+    {
+      "correcta": "PARASECT",
+      "incorrecta": "PARECATS",
+      "pista": "Evolución de Paras, dominado por las setas que crecen en él.",
+      "img": "/../src/assets/sprites_pokemon/47.png"
+    },
+    {
+      "correcta": "VENONAT",
+      "incorrecta": "NTEOVAN",
+      "pista": "Pokémon insecto con grandes ojos y un pelaje púrpura.",
+      "img": "../src/assets/sprites_pokemon/48.png"
+    },
+    {
+      "correcta": "VENOMOTH",
+      "incorrecta": "MNOETHOV",
+      "pista": "Evolución de Venonat, con alas venenosas.",
+      "img": "../src/assets/sprites_pokemon/49.png"
+    },
+    {
+      "correcta": "DIGLETT",
+      "incorrecta": "IGTDELT",
+      "pista": "Pokémon tipo tierra que vive bajo la tierra.",
+      "img": "../src/assets/sprites_pokemon/50.png"
+    },
+    {
+      "correcta": "DUGTRIO",
+      "incorrecta": "TDOUGIR",
+      "pista": "Evolución de Diglett, compuesto por tres cabezas.",
+      "img": "../src/assets/sprites_pokemon/51.png"
+    },
+    {
+      "correcta": "MEOWTH",
+      "incorrecta": "HTEMWO",
+      "pista": "Pokémon gato de tipo normal, conocido por su capacidad de hablar.",
+      "img": "../src/assets/sprites_pokemon/52.png"
+    },
+    {
+      "correcta": "PERSIAN",
+      "incorrecta": "IARSPNE",
+      "pista": "Evolución de Meowth, elegante y ágil.",
+      "img": "../src/assets/sprites_pokemon/53.png"
+    },
+    {
+      "correcta": "PSYDUCK",
+      "incorrecta": "KYUSPCD",
+      "pista": "Pokémon pato de tipo agua, famoso por sus dolores de cabeza.",
+      "img": "../src/assets/sprites_pokemon/54.png"
+    },
+    {
+      "correcta": "GOLDUCK",
+      "incorrecta": "LDOUKCG",
+      "pista": "Evolución de Psyduck, con habilidades psíquicas.",
+      "img": "../src/assets/sprites_pokemon/55.png"
+    },
+    {
+      "correcta": "MANKEY",
+      "incorrecta": "ENKYMA",
+      "pista": "Pokémon mono, famoso por su carácter irritable.",
+      "img": "../src/assets/sprites_pokemon/56.png"
+    },
+    {
+      "correcta": "PRIMEAPE",
+      "incorrecta": "MEPRPEAIA",
+      "pista": "Evolución de Mankey, más agresivo y enojado.",
+      "img": "../src/assets/sprites_pokemon/57.png"
+    },
+    {
+      "correcta": "GROWLITHE",
+      "incorrecta": "TILWHROEG",
+      "pista": "Pokémon perro de tipo fuego, fiel y valiente.",
+      "img": "../src/assets/sprites_pokemon/58.png"
+    },
+    {
+      "correcta": "ARCANINE",
+      "incorrecta": "ICANEARN",
+      "pista": "Evolución de Growlithe, conocido por su velocidad y fuerza.",
+      "img": "../src/assets/sprites_pokemon/59.png"
+    },
+    {
+      "correcta": "POLIWAG",
+      "incorrecta": "IWOGALP",
+      "pista": "Pokémon renacuajo de tipo agua, con una espiral en su barriga.",
+      "img": "../src/assets/sprites_pokemon/60.png"
+    },
+    {
+      "correcta": "POLIWHIRL",
+      "incorrecta": "ILRWLOPHI",
+      "pista": "Evolución de Poliwag, más grande y con brazos fuertes.",
+      "img": "../src/assets/sprites_pokemon/61.png"
+    },
+    {
+      "correcta": "POLIWRATH",
+      "incorrecta": "RLOHPIAWT",
+      "pista": "Evolución final de Poliwag, también de tipo lucha.",
+      "img": "../src/assets/sprites_pokemon/62.png"
+    },
+    {
+      "correcta": "ABRA",
+      "incorrecta": "AARB",
+      "pista": "Pokémon psíquico que pasa la mayor parte del tiempo durmiendo.",
+      "img": "../src/assets/sprites_pokemon/63.png"
+    },
+    {
+      "correcta": "KADABRA",
+      "incorrecta": "ABAKRDA",
+      "pista": "Evolución de Abra, con habilidades psíquicas más avanzadas.",
+      "img": "../src/assets/sprites_pokemon/64.png"
+    },
+    {
+      "correcta": "ALAKAZAM",
+      "incorrecta": "AZKLMAAA",
+      "pista": "Evolución final de Abra, experto en telequinesis.",
+      "img": "../src/assets/sprites_pokemon/65.png"
+    },
+    {
+      "correcta": "MACHOP",
+      "incorrecta": "OHCMAP",
+      "pista": "Pokémon de tipo lucha con un físico musculoso.",
+      "img": "../src/assets/sprites_pokemon/66.png"
+    },
+    {
+      "correcta": "MACHOKE",
+      "incorrecta": "AOCKMEH",
+      "pista": "Evolución de Machop, aún más fuerte y robusto.",
+      "img": "../src/assets/sprites_pokemon/67.png"
+    },
+    {
+      "correcta": "MACHAMP",
+      "incorrecta": "MACPMAH",
+      "pista": "Evolución final de Machop, con cuatro brazos poderosos.",
+      "img": "../src/assets/sprites_pokemon/68.png"
+    },
+    {
+      "correcta": "BELLSPROUT",
+      "incorrecta": "PLLEBTSOUR",
+      "pista": "Pokémon planta con forma de brote que usa sus raíces para atacar.",
+      "img": "../src/assets/sprites_pokemon/69.png"
+    },
+    {
+      "correcta": "WEEPINBELL",
+      "incorrecta": "PEELBINWL",
+      "pista": "Evolución de Bellsprout, con una gran boca para capturar presas.",
+      "img": "../src/assets/sprites_pokemon/70.png"
+    },
+    {
+      "correcta": "VICTREEBEL",
+      "incorrecta": "TERBVELCII",
+      "pista": "Evolución final de Bellsprout, parecida a una planta carnívora.",
+      "img": "../src/assets/sprites_pokemon/71.png"
+    },
+    {
+      "correcta": "TENTACOOL",
+      "incorrecta": "OCLATENOT",
+      "pista": "Pokémon medusa de tipo agua y veneno.",
+      "img": "../src/assets/sprites_pokemon/72.png"
+    },
+    {
+      "correcta": "TENTACRUEL",
+      "incorrecta": "NERCATETUL",
+      "pista": "Evolución de Tentacool, con muchos tentáculos venenosos.",
+      "img": "../src/assets/sprites_pokemon/73.png"
+    },
+    {
+      "correcta": "GEODUDE",
+      "incorrecta": "DOEGUED",
+      "pista": "Pokémon tipo roca que parece una piedra con brazos.",
+      "img": "../src/assets/sprites_pokemon/74.png"
+    },
+    {
+      "correcta": "GRAVELER",
+      "incorrecta": "VELGERAR",
+      "pista": "Evolución de Geodude, más grande y con más brazos.",
+      "img": "../src/assets/sprites_pokemon/75.png"
+    },
+    {
+      "correcta": "GOLEM",
+      "incorrecta": "LOGME",
+      "pista": "Evolución final de Geodude, con un cuerpo rocoso.",
+      "img": "../src/assets/sprites_pokemon/76.png"
+    },
+    {
+      "correcta": "PONYTA",
+      "incorrecta": "TOYPNIA",
+      "pista": "Pokémon caballo de tipo fuego, con crines de llamas.",
+      "img": "../src/assets/sprites_pokemon/77.png"
+    },
+    {
+      "correcta": "RAPIDASH",
+      "incorrecta": "HADPRASI",
+      "pista": "Evolución de Ponyta, con mayor velocidad y poder de fuego.",
+      "img": "../src/assets/sprites_pokemon/78.png"
+    },
+    {
+      "correcta": "SLOWPOKE",
+      "incorrecta": "SLEOWKOP",
+      "pista": "Pokémon perezoso de tipo agua y psíquico.",
+      "img": "../src/assets/sprites_pokemon/79.png"
+    },
+    {
+      "correcta": "SLOWBRO",
+      "incorrecta": "ROBSOWL",
+      "pista": "Evolución de Slowpoke, con una concha en su cola.",
+      "img": "../src/assets/sprites_pokemon/80.png"
+    },
+    {
+      "correcta": "MAGNEMITE",
+      "incorrecta": "NTEIAMEMG",
+      "pista": "Pokémon imán de tipo eléctrico.",
+      "img": "../src/assets/sprites_pokemon/81.png"
+    },
+    {
+      "correcta": "MAGNETON",
+      "incorrecta": "TONAMEGT",
+      "pista": "Evolución de Magnemite, formado por tres imanes.",
+      "img": "../src/assets/sprites_pokemon/82.png"
+    },
+    {
+      "correcta": "FARFETCH'D",
+      "incorrecta": "FDACRFEHT'",
+      "pista": "Pokémon pájaro con un puerro que usa como arma.",
+      "img": "../src/assets/sprites_pokemon/83.png"
+    },
+    {
+      "correcta": "DODUO",
+      "incorrecta": "OODDU",
+      "pista": "Pokémon pájaro con dos cabezas.",
+      "img": "../src/assets/sprites_pokemon/84.png"
+    },
+    {
+      "correcta": "DODRIO",
+      "incorrecta": "ODDRIO",
+      "pista": "Evolución de Doduo, con tres cabezas.",
+      "img": "../src/assets/sprites_pokemon/85.png"
+    },
+    {
+      "correcta": "SEEL",
+      "incorrecta": "SLEE",
+      "pista": "Pokémon tipo agua con apariencia de foca.",
+      "img": "../src/assets/sprites_pokemon/86.png"
+    },
+    {
+      "correcta": "DEWGONG",
+      "incorrecta": "DGNEOWG",
+      "pista": "Evolución de Seel, con un cuerpo más estilizado y gélido.",
+      "img": "../src/assets/sprites_pokemon/87.png"
+    },
+    {
+      "correcta": "GRIMER",
+      "incorrecta": "MRIEGR",
+      "pista": "Pokémon de tipo veneno, hecho de lodo tóxico.",
+      "img": "../src/assets/sprites_pokemon/88.png"
+    },
+    {
+      "correcta": "MUK",
+      "incorrecta": "UKM",
+      "pista": "Evolución de Grimer, más grande y más venenoso.",
+      "img": "../src/assets/sprites_pokemon/89.png"
+    },
+    {
+      "correcta": "SHELLDER",
+      "incorrecta": "RHELSDLE",
+      "pista": "Pokémon bivalvo que vive dentro de una concha dura.",
+      "img": "../src/assets/sprites_pokemon/90.png"
+    },
+    {
+      "correcta": "CLOYSTER",
+      "incorrecta": "LOYCRETS",
+      "pista": "Evolución de Shellder, con una concha extremadamente resistente.",
+      "img": "../src/assets/sprites_pokemon/91.png"
+    },
+    {
+      "correcta": "GASTLY",
+      "incorrecta": "TGLASY",
+      "pista": "Pokémon fantasma y veneno con forma de gas.",
+      "img": "../src/assets/sprites_pokemon/92.png"
+    },
+    {
+      "correcta": "HAUNTER",
+      "incorrecta": "NHUARET",
+      "pista": "Evolución de Gastly, capaz de atravesar paredes.",
+      "img": "../src/assets/sprites_pokemon/93.png"
+    },
+    {
+      "correcta": "GENGAR",
+      "incorrecta": "RANGGE",
+      "pista": "Evolución final de Gastly, conocido por ser travieso.",
+      "img": "../src/assets/sprites_pokemon/94.png"
+    },
+    {
+      "correcta": "ONIX",
+      "incorrecta": "XINO",
+      "pista": "Pokémon roca y tierra con forma de serpiente gigante.",
+      "img": "../src/assets/sprites_pokemon/95.png"
+    },
+    {
+      "correcta": "DROWZEE",
+      "incorrecta": "WOEDZER",
+      "pista": "Pokémon psíquico con la habilidad de hipnotizar.",
+      "img": "../src/assets/sprites_pokemon/96.png"
+    },
+    {
+      "correcta": "HYPNO",
+      "incorrecta": "PYONH",
+      "pista": "Evolución de Drowzee, experto en la hipnosis.",
+      "img": "../src/assets/sprites_pokemon/97.png"
+    },
+    {
+      "correcta": "KRABBY",
+      "incorrecta": "BKYARB",
+      "pista": "Pokémon cangrejo de tipo agua con grandes pinzas.",
+      "img": "../src/assets/sprites_pokemon/98.png"
+    },
+    {
+      "correcta": "KINGLER",
+      "incorrecta": "RNIGLEK",
+      "pista": "Evolución de Krabby, con una enorme pinza más poderosa.",
+      "img": "../src/assets/sprites_pokemon/99.png"
+    },
+    {
+      "correcta": "VOLTORB",
+      "incorrecta": "TLVROBO",
+      "pista": "Pokémon eléctrico que parece una Pokébola.",
+      "img": "../src/assets/sprites_pokemon/100.png"
+    },
+    {
+      "correcta": "ELECTRODE",
+      "incorrecta": "RCEEDOETL",
+      "pista": "Evolución de Voltorb, famoso por explotar.",
+      "img": "../src/assets/sprites_pokemon/101.png"
+    },
+    {
+      "correcta": "EXEGGCUTE",
+      "incorrecta": "XUECEETGG",
+      "pista": "Pokémon planta formado por varios huevos.",
+      "img": "../src/assets/sprites_pokemon/102.png"
+    },
+    {
+      "correcta": "EXEGGUTOR",
+      "incorrecta": "ETRGEXGOU",
+      "pista": "Evolución de Exeggcute, con un cuerpo de palmera.",
+      "img": "../src/assets/sprites_pokemon/103.png"
+    },
+    {
+      "correcta": "CUBONE",
+      "incorrecta": "BUNCOE",
+      "pista": "Pokémon que usa el cráneo de su madre como casco.",
+      "img": "../src/assets/sprites_pokemon/104.png"
+    },
+    {
+      "correcta": "MAROWAK",
+      "incorrecta": "WROKAMA",
+      "pista": "Evolución de Cubone, conocido por su fuerza y su habilidad con el hueso.",
+      "img": "../src/assets/sprites_pokemon/105.png"
+    },
+    {
+      "correcta": "HITMONLEE",
+      "incorrecta": "METHONIEL",
+      "pista": "Pokémon luchador famoso por sus poderosas patadas.",
+      "img": "../src/assets/sprites_pokemon/106.png"
+    },
+    {
+      "correcta": "HITMONCHAN",
+      "incorrecta": "HINMTOACNH",
+      "pista": "Pokémon luchador, experto en el boxeo.",
+      "img": "../src/assets/sprites_pokemon/107.png"
+    },
+    {
+      "correcta": "LICKITUNG",
+      "incorrecta": "KCITULGIN",
+      "pista": "Pokémon con una lengua extremadamente larga.",
+      "img": "../src/assets/sprites_pokemon/108.png"
+    },
+    {
+      "correcta": "KOFFING",
+      "incorrecta": "NGOFIFK",
+      "pista": "Pokémon gas venenoso que flota.",
+      "img": "../src/assets/sprites_pokemon/109.png"
+    },
+    {
+      "correcta": "WEEZING",
+      "incorrecta": "EZIGNEW",
+      "pista": "Evolución de Koffing, conocido por sus gases tóxicos.",
+      "img": "../src/assets/sprites_pokemon/110.png"
+    },
+    {
+      "correcta": "RHYHORN",
+      "incorrecta": "ROYNHHR",
+      "pista": "Pokémon roca y tierra con una piel dura como una piedra.",
+      "img": "../src/assets/sprites_pokemon/111.png"
+    },
+    {
+      "correcta": "RHYDON",
+      "incorrecta": "HYDRON",
+      "pista": "Evolución de Rhyhorn, con una gran fuerza física.",
+      "img": "../src/assets/sprites_pokemon/112.png"
+    },
+    {
+      "correcta": "CHANSEY",
+      "incorrecta": "NEAYHCS",
+      "pista": "Pokémon de tipo normal, conocido por cuidar a los heridos.",
+      "img": "../src/assets/sprites_pokemon/113.png"
+    },
+    {
+      "correcta": "TANGELA",
+      "incorrecta": "LETNAAG",
+      "pista": "Pokémon planta con lianas que cubren su cuerpo.",
+      "img": "../src/assets/sprites_pokemon/114.png"
+    },
+    {
+      "correcta": "KANGASKHAN",
+      "incorrecta": "HANKSAKANG",
+      "pista": "Pokémon que protege a su cría en una bolsa.",
+      "img": "../src/assets/sprites_pokemon/115.png"
+    },
+    {
+      "correcta": "HORSEA",
+      "incorrecta": "SAHERO",
+      "pista": "Pokémon de tipo agua, que expulsa chorros desde su boca.",
+      "img": "../src/assets/sprites_pokemon/116.png"
+    },
+    {
+      "correcta": "SEADRA",
+      "incorrecta": "DRSEAA",
+      "pista": "Evolución de Horsea, con habilidades acuáticas más avanzadas.",
+      "img": "../src/assets/sprites_pokemon/117.png"
+    },
+    {
+      "correcta": "GOLDEEN",
+      "incorrecta": "NDGELOE",
+      "pista": "Pokémon tipo agua con apariencia de pez dorado.",
+      "img": "../src/assets/sprites_pokemon/118.png"
+    },
+    {
+      "correcta": "SEAKING",
+      "incorrecta": "EKIGANS",
+      "pista": "Evolución de Goldeen, conocido por su cuerno en la frente.",
+      "img": "../src/assets/sprites_pokemon/119.png"
+    },
+    {
+      "correcta": "STARYU",
+      "incorrecta": "YRTUAS",
+      "pista": "Pokémon en forma de estrella de mar de tipo agua.",
+      "img": "../src/assets/sprites_pokemon/120.png"
+    },
+    {
+      "correcta": "STARMIE",
+      "incorrecta": "SARMTEI",
+      "pista": "Evolución de Staryu, con una gema brillante en su centro.",
+      "img": "../src/assets/sprites_pokemon/121.png"
+    },
+    {
+      "correcta": "MR. MIME",
+      "incorrecta": "MIR. MEM",
+      "pista": "Pokémon psíquico conocido por sus habilidades de pantomima.",
+      "img": "../src/assets/sprites_pokemon/122.png"
+    },
+    {
+      "correcta": "SCYTHER",
+      "incorrecta": "YSCHTRE",
+      "pista": "Pokémon insecto con grandes hoces en sus brazos.",
+      "img": "../src/assets/sprites_pokemon/123.png"
+    },
+    {
+      "correcta": "JYNX",
+      "incorrecta": "YXJN",
+      "pista": "Pokémon de tipo hielo y psíquico, con habilidades de beso.",
+      "img": "../src/assets/sprites_pokemon/124.png"
+    },
+    {
+      "correcta": "ELECTABUZZ",
+      "incorrecta": "CZULEBTBAEZ",
+      "pista": "Pokémon eléctrico con habilidades rápidas y potentes descargas.",
+      "img": "../src/assets/sprites_pokemon/125.png"
+    },
+    {
+      "correcta": "MAGMAR",
+      "incorrecta": "RAGMMA",
+      "pista": "Pokémon de tipo fuego, con un cuerpo incandescente.",
+      "img": "../src/assets/sprites_pokemon/126.png"
+    },
+    {
+      "correcta": "PINSIR",
+      "incorrecta": "NSIPIR",
+      "pista": "Pokémon insecto con pinzas grandes en la cabeza.",
+      "img": "../src/assets/sprites_pokemon/127.png"
+    },
+    {
+      "correcta": "TAUROS",
+      "incorrecta": "SUTARO",
+      "pista": "Pokémon toro con tres colas, conocido por su fuerza bruta.",
+      "img": "../src/assets/sprites_pokemon/128.png"
+    },
+    {
+      "correcta": "MAGIKARP",
+      "incorrecta": "GIKAPMRK",
+      "pista": "Pokémon pez de tipo agua, conocido por su debilidad.",
+      "img": "../src/assets/sprites_pokemon/129.png"
+    },
+    {
+      "correcta": "GYARADOS",
+      "incorrecta": "RYAGDOAS",
+      "pista": "Evolución de Magikarp, conocido por su ferocidad.",
+      "img": "../src/assets/sprites_pokemon/130.png"
+    },
+    {
+      "correcta": "LAPRAS",
+      "incorrecta": "SRAAPL",
+      "pista": "Pokémon tipo agua que se usa como transporte sobre el agua.",
+      "img": "../src/assets/sprites_pokemon/131.png"
+    },
+    {
+      "correcta": "DITTO",
+      "incorrecta": "TIDTO",
+      "pista": "Pokémon con la capacidad de transformarse en otros.",
+      "img": "../src/assets/sprites_pokemon/132.png"
+    },
+    {
+      "correcta": "EEVEE",
+      "incorrecta": "VEEEE",
+      "pista": "Pokémon con múltiples evoluciones, conocido por su adaptabilidad.",
+      "img": "../src/assets/sprites_pokemon/133.png"
+    },
+    {
+      "correcta": "VAPOREON",
+      "incorrecta": "APOREONV",
+      "pista": "Evolución de Eevee, de tipo agua.",
+      "img": "../src/assets/sprites_pokemon/134.png"
+    },
+    {
+      "correcta": "JOLTEON",
+      "incorrecta": "TJOLONE",
+      "pista": "Evolución de Eevee, de tipo eléctrico.",
+      "img": "../src/assets/sprites_pokemon/135.png"
+    },
+    {
+      "correcta": "FLAREON",
+      "incorrecta": "FERALENO",
+      "pista": "Evolución de Eevee, de tipo fuego.",
+      "img": "../src/assets/sprites_pokemon/136.png"
+    },
+    {
+      "correcta": "PORYGON",
+      "incorrecta": "ORNYGOP",
+      "pista": "Pokémon virtual creado por científicos.",
+      "img": "../src/assets/sprites_pokemon/137.png"
+    },
+    {
+      "correcta": "OMANYTE",
+      "incorrecta": "YOMTENA",
+      "pista": "Pokémon fósil de tipo roca y agua.",
+      "img": "../src/assets/sprites_pokemon/138.png"
+    },
+    {
+      "correcta": "OMASTAR",
+      "incorrecta": "TMROASA",
+      "pista": "Evolución de Omanyte, con tentáculos más largos y fuertes.",
+      "img": "../src/assets/sprites_pokemon/139.png"
+    },
+    {
+      "correcta": "KABUTO",
+      "incorrecta": "AKTUBO",
+      "pista": "Pokémon fósil en forma de criatura acuática cubierta de un caparazón.",
+      "img": "../src/assets/sprites_pokemon/140.png"
+    },
+    {
+      "correcta": "KABUTOPS",
+      "incorrecta": "SBAKOTUP",
+      "pista": "Evolución de Kabuto, con grandes hoces en sus brazos.",
+      "img": "../src/assets/sprites_pokemon/141.png"
+    },
+    {
+      "correcta": "AERODACTYL",
+      "incorrecta": "LAEYTORACD",
+      "pista": "Pokémon fósil volador, con apariencia de pterosaurio.",
+      "img": "../src/assets/sprites_pokemon/142.png"
+    },
+    {
+      "correcta": "SNORLAX",
+      "incorrecta": "ONRSXAL",
+      "pista": "Pokémon de tipo normal, conocido por su constante sueño y gran tamaño.",
+      "img": "../src/assets/sprites_pokemon/143.png"
+    },
+    {
+      "correcta": "ARTICUNO",
+      "incorrecta": "IATCUONR",
+      "pista": "Pokémon legendario de tipo hielo.",
+      "img": "../src/assets/sprites_pokemon/144.png"
+    },
+    {
+      "correcta": "ZAPDOS",
+      "incorrecta": "SDZOAP",
+      "pista": "Pokémon legendario de tipo eléctrico.",
+      "img": "../src/assets/sprites_pokemon/145.png"
+    },
+    {
+      "correcta": "MOLTRES",
+      "incorrecta": "SLMORTES",
+      "pista": "Pokémon legendario de tipo fuego.",
+      "img": "../src/assets/sprites_pokemon/146.png"
+    },
+    {
+      "correcta": "DRATINI",
+      "incorrecta": "RADITNI",
+      "pista": "Pokémon dragón que vive en ríos y lagos.",
+      "img": "../src/assets/sprites_pokemon/147.png"
+    },
+    {
+      "correcta": "DRAGONAIR",
+      "incorrecta": "RADORNGAI",
+      "pista": "Evolución de Dratini, conocido por su elegancia.",
+      "img": "../src/assets/sprites_pokemon/148.png"
+    },
+    {
+      "correcta": "DRAGONITE",
+      "incorrecta": "GARNIODTE",
+      "pista": "Evolución final de Dratini, un Pokémon dragón muy poderoso.",
+      "img": "../src/assets/sprites_pokemon/149.png"
+    },
+    {
+      "correcta": "MEWTWO",
+      "incorrecta": "EWTMEO",
+      "pista": "Pokémon legendario, creado artificialmente mediante ingeniería genética.",
+      "img": "../src/assets/sprites_pokemon/150.png"
+    },
+    {
+      "correcta": "MEW",
+      "incorrecta": "EWM",
+      "pista": "Pokémon legendario, de tipo psíquico, conocido por su rareza.",
+      "img": "../src/assets/sprites_pokemon/151.png"
+    }
+  ]
+}
