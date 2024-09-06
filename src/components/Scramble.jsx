@@ -1,6 +1,7 @@
 import { palabras } from "../helpers/data.json";
 import { useState, useEffect } from "react";
 import "./Scramble.css";
+import pokeball from "../assets/pokeball.svg";
 
 export const Scramble = () => {
   const [palabraOculta, setPalabraOculta] = useState(null);
@@ -13,6 +14,7 @@ export const Scramble = () => {
     </div>
   );
   const [isImageVisible, setIsImageVisible] = useState(false);
+  const [isDisabled, setIsDisabled] = useState(false);
 
   const handleInputValue = ({ target }) => {
     const { value } = target;
@@ -47,6 +49,7 @@ export const Scramble = () => {
           Felicidades es Correcta!
         </div>
       );
+      setIsDisabled(true);
       setIsImageVisible(true);
     } else {
       setInputValue("");
@@ -66,6 +69,14 @@ export const Scramble = () => {
 
   const next = () => {
     getRandomWord();
+    setIsDisabled(false);
+    setInputValue("");
+  };
+
+  const handleKeyDown = (e) => {
+    if (e.key === "Enter") {
+      e.preventDefault(); // Evita el envío del formulario al presionar Enter
+    }
   };
 
   useEffect(() => {
@@ -77,7 +88,11 @@ export const Scramble = () => {
   return (
     <>
       <div className='container-md mt-4 bg-light rounded d-flex flex-column align-items-center justify-content-center p-2'>
-        <h1>SCRAMBLE!</h1>
+        <div className='d-flex align-items-center justify-content-center gap-2'>
+          <h1 className='mb-0'>SCRAMBLE!</h1>
+          <img src={pokeball} alt='pokeball' width='30px' />
+        </div>
+
         <img
           src={palabras[palabraOculta].img}
           alt='Imagen pokemon correspondiente'
@@ -90,19 +105,21 @@ export const Scramble = () => {
         <p>Pista: {palabras[palabraOculta].pista}</p>
         <form
           onSubmit={comprobar}
+          onKeyDown={handleKeyDown}
           className=' d-flex flex-column align-items-center justify-content-center'
         >
           <input
             type='text'
-            placeholder='Palabra correcta!'
+            placeholder='respuesta'
             value={inputValue}
             onChange={handleInputValue}
-            className='text-uppercase'
+            className='text-uppercase text-center'
+            disabled={isDisabled}
           />
           <div>
             <button
               type='submit'
-              className='btn btn-warning'
+              className={`btn btn-warning ${isDisabled ? "disabled" : ""}`}
               onClick={comprobar}
             >
               COMPROBAR
