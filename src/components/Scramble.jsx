@@ -15,6 +15,7 @@ export const Scramble = () => {
   );
   const [isImageVisible, setIsImageVisible] = useState(false);
   const [isDisabled, setIsDisabled] = useState(false);
+  const images = import.meta.glob("../assets/img/*.png", { eager: true });
 
   const handleInputValue = ({ target }) => {
     const { value } = target;
@@ -75,7 +76,7 @@ export const Scramble = () => {
 
   const handleKeyDown = (e) => {
     if (e.key === "Enter") {
-      e.preventDefault(); // Evita el envío del formulario al presionar Enter
+      e.preventDefault();
     }
   };
 
@@ -84,6 +85,9 @@ export const Scramble = () => {
   }, []);
 
   if (palabraOculta === null) return null;
+  const pokemonImage =
+    palabraOculta !== null &&
+    images[`../assets/img/${palabras[palabraOculta].img}`];
 
   return (
     <>
@@ -92,13 +96,16 @@ export const Scramble = () => {
           <h1 className='mb-0'>SCRAMBLE!</h1>
           <img src={pokeball} alt='pokeball' width='30px' />
         </div>
-
-        <img
-          src={palabras[palabraOculta].img}
-          alt='Imagen pokemon correspondiente'
-          width='100px'
-          className={isImageVisible ? "color" : "grayscale"}
-        />
+        {pokemonImage ? (
+          <img
+            src={pokemonImage.default}
+            alt='Imagen pokemon correspondiente'
+            width='100px'
+            className={isImageVisible ? "color" : "grayscale"}
+          />
+        ) : (
+          <p>Imagen no disponible</p>
+        )}
         <h3 className='bg-danger text-light p-2 rounded'>
           {palabras[palabraOculta].incorrecta}
         </h3>
